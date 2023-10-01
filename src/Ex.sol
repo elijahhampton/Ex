@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.18;
 
 import { ERC20Burnable, ERC20 } from "openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
@@ -10,7 +12,7 @@ import { Ownable } from "@openzeppelin/contract/access/Ownable.sol";
  * Minting: Algorithmic
  * Relative Stability: Pegged to USD
  *
- * This contract is governed by DSCEngine. This contract is just the ERC20 implementation of
+ * This contract is governed by ExEngine. This contract is just the ERC20 implementation of
  * the stablecoin system.
  */
 contract Ex is ERC20Burnable, Ownable {
